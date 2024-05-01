@@ -14,3 +14,4 @@ if __name__=='__main.py__':
 
     logger=Log4j(spark)
     logger.warn("finished creating spark session")
+    logger.info("one more msg")
